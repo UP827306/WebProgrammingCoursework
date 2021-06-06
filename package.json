@@ -1,0 +1,17 @@
+{
+  "name": "jsproject2",
+  "version": "1.0.0",
+  "description": "A plagiarism detector",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Harry Billingsley-Dadd",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite": "^3.0.3",
+    "uuid-random": "^1.3.0",
+    "string-similarity": "^4.0.4"
+  }
+}
